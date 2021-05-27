@@ -221,6 +221,7 @@
     (treemacs-create-icon :icon (format "  %s%s" (all-the-icons-alltheicon "swift" :v-adjust 0 :face 'all-the-icons-orange) treemacs-all-the-icons-tab) :extensions ("swift") :fallback 'same-as-icon)
     (treemacs-create-icon :icon (format "  %s%s" (all-the-icons-alltheicon "terminal" :v-adjust 0 :face 'all-the-icons-dgreen) treemacs-all-the-icons-tab) :extensions ("sh" "bash" "zsh" "fish" "zshrc" "bashrc") :fallback 'same-as-icon)
     (treemacs-create-icon :icon (format "  %s%s" (all-the-icons-fileicon "verilog" :v-adjust 0 :face 'all-the-icons-dblue) treemacs-all-the-icons-tab) :extensions ("sv" "v") :fallback 'same-as-icon)
+    (treemacs-create-icon :icon (format "  %s%s" (all-the-icons-fileicon "vhdl" :v-adjust 0 :face 'all-the-icons-dblue)6 treemacs-all-the-icons-tab) :extensions ("vhdl" "vhd") :fallback 'same-as-icon)
     (treemacs-create-icon :icon (format "  %s%s" (all-the-icons-fileicon "tcl" :v-adjust 0 :face 'all-the-icons-dyellow) treemacs-all-the-icons-tab) :extensions ("tcl") :fallback 'same-as-icon)
     (treemacs-create-icon :icon (format "  %s%s" (all-the-icons-fileicon "tex" :v-adjust 0 :face 'all-the-icons-dsilver) treemacs-all-the-icons-tab) :extensions ("tex") :fallback 'same-as-icon)
     (treemacs-create-icon :icon (format "  %s%s" (all-the-icons-fileicon "typescript-alt" :v-adjust 0 :face 'all-the-icons-blue) treemacs-all-the-icons-tab) :extensions ("ts") :fallback 'same-as-icon)
