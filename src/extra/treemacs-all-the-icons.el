@@ -171,7 +171,7 @@
     (treemacs-create-icon :icon (format "  %s%s" (all-the-icons-alltheicon "html5" :v-adjust 0 :face 'all-the-icons-orange) treemacs-all-the-icons-tab) :extensions ("htm" "html") :fallback 'same-as-icon)
     (treemacs-create-icon :icon (format "  %s%s" (all-the-icons-fileicon "hy" :v-adjust 0 :face 'all-the-icons-dblue) treemacs-all-the-icons-tab) :extensions ("hy") :fallback 'same-as-icon)
     (treemacs-create-icon :icon (format "  %s%s" (all-the-icons-fileicon "jupyter" :v-adjust 0 :face 'all-the-icons-orange) treemacs-all-the-icons-tab) :extensions ("ipynb") :fallback 'same-as-icon)
-    (treemacs-create-icon :icon (format "  %s%s" (all-the-icons-fileicon "jenkins" :v-adjust 0 :face 'all-the-icons-lsilver) treemacs-all-the-icons-tab) :extensions ("jenkins") :fallback 'same-as-icon)
+    (treemacs-create-icon :icon (format "  %s%s" (all-the-icons-fileicon "jenkins" :v-adjust 0 :face 'all-the-icons-lsilver) treemacs-all-the-icons-tab) :extensions ("jenkins" "jenkinsfile") :fallback 'same-as-icon)
     (treemacs-create-icon :icon (format "  %s%s" (all-the-icons-fileicon "jinja" :v-adjust 0 :face 'all-the-icons-dred) treemacs-all-the-icons-tab) :extensions ("j2" "jinja2") :fallback 'same-as-icon)
     (treemacs-create-icon :icon (format "  %s%s" (all-the-icons-alltheicon "java" :v-adjust 0 :face 'all-the-icons-orange) treemacs-all-the-icons-tab) :extensions ("java" "jar") :fallback 'same-as-icon)
     (treemacs-create-icon :icon (format "  %s%s" (all-the-icons-fileicon "julia" :v-adjust 0 :face 'all-the-icons-green) treemacs-all-the-icons-tab) :extensions ("jl") :fallback 'same-as-icon)
